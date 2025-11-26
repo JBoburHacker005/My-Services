@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Services</title>
+    <link rel="icon" type="image/png" href="/Airbrush-Image-Enhancer-1761540581476-Photoroom.png">
+    <link rel="apple-touch-icon" href="/Airbrush-Image-Enhancer-1761540581476-Photoroom.png">
+    <link rel="shortcut icon" href="/Airbrush-Image-Enhancer-1761540581476-Photoroom.png">
+    <link rel="stylesheet" href="./styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <!-- Header Widgets -->
+            <div class="header-widgets">
+                <div class="header-clock">
+                    <i class="fas fa-clock"></i>
+                    <span id="header-time"></span>
+                </div>
+                <div class="header-weather">
+                    <i class="fas fa-cloud-sun"></i>
+                    <div class="weather-info">
+                        <span id="header-weather-temp">--°C</span>
+                        <span id="header-weather-desc">Loading...</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="nav-container">
+                <div class="logo">
+                    <img src="/Airbrush-Image-Enhancer-1761540581476-Photoroom.png" alt="My Services Logo" class="logo-image">
+                    <span>My Services</span>
+                </div>
+                <button class="nav-toggle" aria-label="Open menu">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <nav class="nav-menu">
+                    <a href="#home" class="nav-link active">Home</a>
+                    <a href="#search" class="nav-link">Search</a>
+                    <a href="#services" class="nav-link">Services</a>
+                    <a href="#about" class="nav-link">About</a>
+                    <a href="#contact" class="nav-link">Contact</a>
+                </nav>
+                <div class="nav-actions">
+                    <button class="btn-secondary">Sign In</button>
+                    <button class="btn-primary">Get Started</button>
+                </div>
+            </div>
+        </header>
+
+        <!-- Hero Section -->
+        <section class="hero" id="home">
+            <div class="hero-background">
+                <div class="hero-particles"></div>
+                <div class="hero-grid"></div>
+            </div>
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    Welcome to
+                    <span class="gradient-text">My Services</span>
+                </h1>
+                <p class="hero-description">
+                    Your complete digital platform for fuqarolik, huquqlarim, burchlarim, ta'lim, soliqlarim, yangiliklar, energetika va komunal, ekologiya, ruxsatnomalar, transportlar, jarimalarim, and more. 
+                    Experience the future of digital services in one unified ecosystem.
+                </p>
+                <div class="hero-actions">
+                    <button class="btn-primary btn-large">Explore Services</button>
+                    <button class="btn-secondary btn-large">Watch Demo</button>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-number">12+</span>
+                        <span class="stat-label">Services</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">1M+</span>
+                        <span class="stat-label">Users</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">24/7</span>
+                        <span class="stat-label">Support</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="floating-cards">
+                    <div class="floating-card card-1">
+                        <div class="service-icon">
+                            <img src="./transportlar.png" alt="Transportlar logo" width="60px" height="60px">
+                        </div>
+                        <!-- <span>Transportlar</span> -->
+                    </div>
+                    <div class="floating-card card-2">
+                        <div class="service-icon">
+                            <img src="./huquqlarim.png" alt="Huquqlarim logo" width="50px" height="50px">
+                        </div>
+                        <!-- <span>Huquqlarim</span> -->
+                    </div>
+                    <div class="floating-card card-3">
+                        <div class="service-icon">
+                            <img src="./burchlarim.png" alt="Burchlarim logo" width="70px" height="70px">
+                        </div>
+                        <!-- <span>Burchlarim</span> -->
+                    </div>
+                    <div class="floating-card card-4">
+                        <div class="service-icon">
+                            <img src="./ta'lim.png" alt="Ta'lim logo" width="70px" height="70px">
+                        </div>
+                        <!-- <span>Ta'lim</span> -->
+                    </div>
+                    <div class="floating-card card-5">
+                        <div class="service-icon">
+                            <img src="./soliqlarim.png" alt="Soliqlarim logo" width="70px" height="70px">
+                        </div>
+                        <!-- <span>Soliqlarim</span> -->
+                    </div>
+                    <div class="floating-card card-6">
+                        <div class="service-icon">
+                            <img src="./fuqarolik.png" alt="Fuqarolik logo" width="50px" height="50px">
+                        </div>
+                        <!-- <span>Fuqarolik</span> -->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Search Section -->
+        <section class="search-section" id="search">
+            <div class="search-container">
+                <div class="search-header">
+                    <div class="search-logo">
+                        <div class="logo-icon">
+                            <i class="fas fa-search"></i>
+                        </div>
+                        <h2>Qidiruv</h2>
+                    </div>
+                    <p>Find anything on the internet with our powerful search engine</p>
+                </div>
+                <div class="search-box-container">
+                    <div class="search-box">
+                        <i class="fas fa-search search-icon"></i>
+                        <input type="text" placeholder="Search anything on Google..." class="search-input" id="googleSearch">
+                        <button class="search-btn" onclick="performGoogleSearch()">Search</button>
+                    </div>
+                    <div class="search-suggestions" id="searchSuggestions"></div>
+                </div>
+                <div class="search-features">
+                    <div class="search-feature">
+                        <i class="fas fa-bolt"></i>
+                        <span>Lightning Fast</span>
+                    </div>
+                    <div class="search-feature">
+                        <i class="fas fa-shield-alt"></i>
+                        <span>Secure Search</span>
+                    </div>
+                    <div class="search-feature">
+                        <i class="fas fa-globe"></i>
+                        <span>Global Results</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section class="services" id="services">
+            <div class="section-header">
+                <h2>Our Digital Services</h2>
+                <p>Complete ecosystem of digital services for all your needs</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card video-service">                    
+                    <div class="service-icon">
+                        <img src="./fuqarolik.png" alt="Fuqarolik logo" width="70px" height="70px">
+                    </div>
+                    <h3>Fuqarolik</h3>
+                    <p>Shaxsiy ma'lumotlaringiz, pasport va ID karta bilan bog'liq barcha ma'lumotlarni bir joyda boshqaring.</p>
+                    <div class="service-features">
+                        <span>Ro'yxatdan o'tish holatini ko'rish</span>
+                        <span>Fuqaro ma'lumotlarini yangilash</span>
+                        <span>Ariza yuborish onlayn</span>
+                    </div>
+                    <button class="service-btn">Fuqarolik xizmatlariga o‘tish</button>
+                </div>
+
+                <div class="service-card news-service">                   
+                    <div class="service-icon">
+                        <img src="./huquqlarim.png" alt="Huquqlarim logo" width="70px" height="70px">
+                    </div>
+                    <h3>Huquqlarim</h3>
+                    <p>O'z huquqlaringizni bilish, tushunish va himoya qilish uchun qulay qo‘llanma.</p>
+                    <div class="service-features">
+                        <span>Qisqa va aniq izohlar</span>
+                        <span>Amaliy misollar</span>
+                        <span>Yangilanib boruvchi ma'lumotlar</span>
+                    </div>
+                    <button class="service-btn">Huquqlarimni ko‘rish</button>
+                </div>
+
+                <div class="service-card mail-service">                  
+                    <div class="service-icon">
+                        <img src="./burchlarim.png" alt="Burchlarim logo" width="70px" height="70px">
+                    </div>
+                    <h3>Burchlarim</h3>
+                    <p>Fuqarolik, soliqlar va boshqa majburiyatlaringiz bo‘yicha burchlaringizni nazorat qiling.</p>
+                    <div class="service-features">
+                        <span>To‘lov muddati eslatmalari</span>
+                        <span>Majburiyatlar ro‘yxati</span>
+                        <span>Hisobotlarni ko‘rish</span>
+                    </div>
+                    <button class="service-btn">Burchlarim bo‘limiga kirish</button>
+                </div>
+
+                <div class="service-card messenger-service">                  
+                    <div class="service-icon">
+                        <img src="./ijtimoiy himoya.png" alt="Ijtimoiy Himoya logo" width="70px" height="70px">
+                    </div>
+                    <h3>Ijtimoiy Himoya</h3>
+                    <p>Nafaqalar, yordam pullari va ijtimoiy dasturlar haqida batafsil ma'lumot oling.</p>
+                    <div class="service-features">
+                        <span>Nafaqa turlari</span>
+                        <span>Onlayn ariza topshirish</span>
+                        <span>Tekshiruv holatini kuzatish</span>
+                    </div>
+                    <button class="service-btn">Ijtimoiy yordamni tekshirish</button>
+                </div>
+
+                <div class="service-card map-service">                  
+                    <div class="service-icon">
+                        <img src="./ta'lim.png" alt="Ta'lim logo" width="70px" height="70px">
+                    </div>
+                    <h3>Ta'lim</h3>
+                    <p>Maktab, kollej va oliy ta'lim muassasalari bo‘yicha barcha kerakli ma'lumotlar.</p>
+                    <div class="service-features">
+                        <span>O‘qish uchun ariza</span>
+                        <span>Grant va kontrakt ma'lumotlari</span>
+                        <span>Online kurslar ro‘yxati</span>
+                    </div>
+                    <button class="service-btn">Ta'lim xizmatlariga kirish</button>
+                </div>
+
+                <div class="service-card games-service">          
+                    <div class="service-icon">
+                        <img src="./soliqlarim.png" alt="Soliqlarim logo" width="70px" height="70px">
+                    </div>
+                    <h3>Soliqlarim</h3>
+                    <p>Jismoniy va yuridik shaxs sifatida barcha soliq majburiyatlaringizni onlayn kuzating.</p>
+                    <div class="service-features">
+                        <span>Soliq qarzini tekshirish</span>
+                        <span>To‘lov tarixini ko‘rish</span>
+                        <span>Elektron to‘lovlar</span>
+                    </div>
+                    <button class="service-btn">Soliqlarimni tekshirish</button>
+                </div>
+
+                <div class="service-card market-service">                   
+                    <div class="service-icon">
+                        <img src="./yangiliklar.png" alt="Yangiliklar logo" width="60px" height="60px">
+                    </div>
+                    <h3>Yangiliklar</h3>
+                    <p>Mamlakat va dunyodagi eng so‘nggi rasmiy yangiliklar, xabarlar va e'lonlar.</p>
+                    <div class="service-features">
+                        <span>Rasmiy bildirishnomalar</span>
+                        <span>Sektorlar bo‘yicha yangiliklar</span>
+                        <span>Tezkor ogohlantirishlar</span>
+                    </div>
+                    <button class="service-btn">Yangiliklarni o‘qish</button>
+                </div>
+
+                <div class="service-card music-service">                   
+                    <div class="service-icon">
+                        <img src="./energetika va komunal.png" alt="Energetika va Komunal logo" width="60px" height="60px">
+                    </div>
+                    <h3>Energetika va Komunal</h3>
+                    <p>Elektr, gaz, suv va boshqa kommunal xizmatlaringizni qulay boshqarish.</p>
+                    <div class="service-features">
+                        <span>Hisob-kitobni ko‘rish</span>
+                        <span>Onlayn to‘lov</span>
+                        <span>Avariya va nosozlik haqida xabar berish</span>
+                    </div>
+                    <button class="service-btn">Komunal xizmatlarni to‘lash</button>
+                </div>
+
+                <div class="service-card edu-service">                 
+                    <div class="service-icon">
+                        <img src="./ekologiya.png" alt="Ekologiya logo" width="60px" height="60px">
+                    </div>
+                    <h3>Ekologiya</h3>
+                    <p>Atrof-muhitni muhofaza qilish, chiqindilar va ekologik loyihalar haqida ma'lumotlar.</p>
+                    <div class="service-features">
+                        <span>Ekologik me'yorlar</span>
+                        <span>Onlayn murojaatlar</span>
+                        <span>Hududiy monitoring ma'lumotlari</span>
+                    </div>
+                    <button class="service-btn">Ekologiya bo‘yicha ma'lumotlar</button>
+                </div>
+
+                <div class="service-card ai-service">                  
+                    <div class="service-icon">
+                        <img src="./ruxsatnomalar.png" alt="Ruxsatnomalar logo" width="60px" height="60px">
+                    </div>
+                    <h3>Ruxsatnomalar</h3>
+                    <p>Litsenziya, ruxsatnoma va guvohnomalarni olish jarayonini onlayn boshqaring.</p>
+                    <div class="service-features">
+                        <span>Ariza yuborish</span>
+                        <span>Kerakli hujjatlar ro‘yxati</span>
+                        <span>Ko‘rib chiqish holatini kuzatish</span>
+                    </div>
+                    <button class="service-btn">Ruxsatnoma olish</button>
+                </div>
+
+                <div class="service-card pay-service">                   
+                    <div class="service-icon">
+                        <img src="./transportlar.png" alt="Transportlar logo" width="60px" height="60px">
+                    </div>
+                    <h3>Transportlar</h3>
+                    <p>Shaxsiy va jamoat transporti bo‘yicha ma'lumotlar, ro‘yxatdan o‘tish va tekshiruvlar.</p>
+                    <div class="service-features">
+                        <span>Transport ro‘yxati</span>
+                        <span>Texnik ko‘rik ma'lumotlari</span>
+                        <span>Onlayn to‘lov va jarimalar</span>
+                    </div>
+                    <button class="service-btn">Transport ma'lumotlarini ko‘rish</button>
+                </div>
+
+                <div class="service-card int-test-service">                   
+                    <div class="service-icon">
+                        <img src="./jarimalarim.png" alt="Jarimalarim logo" width="60px" height="60px">
+                    </div>
+                    <h3>Jarimalarim</h3>
+                    <p>Yo‘l harakati va boshqa sohalarda qo‘llangan barcha jarimalaringizni tezda tekshiring.</p>
+                    <div class="service-features">
+                        <span>Jarima summasini ko‘rish</span>
+                        <span>To‘lov muddati</span>
+                        <span>Onlayn to‘lov imkoniyati</span>
+                    </div>
+                    <button class="service-btn">Jarimalarni tekshirish</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="about" id="about">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>About My Services creator: </h2><h1>Jovliyev Bobur Nuriddin o'g'li</h1>
+                    <p>
+                        Hello, my name is Bobur Jovliyev Nuriddin og‘li. I was born on June 7, 2010, in Uzun village, Qamashi district, Kashkadarya region, Republic of Uzbekistan, in a military family.
+
+I am passionate about Mathematics, English, Physics, and Computer Science, and I regularly develop various websites. I am an IBM-certified programmer with over 2 years of work experience.
+
+You can find the programming languages, operating systems, and certifications I know and hold listed below.
+                    </p>
+                    <div class="about-features">
+                        <div class="about-feature">
+                            <i class="fas fa-check"></i>
+                            <span>Advanced AI Technology</span>
+                        </div>
+                        <div class="about-feature">
+                            <i class="fas fa-check"></i>
+                            <span>Privacy-First Approach</span>
+                        </div>
+                        <div class="about-feature">
+                            <i class="fas fa-check"></i>
+                            <span>Global Infrastructure</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-visual">
+                    <div class="visual-card">
+                        <div class="visual-header">
+                            <h3>Our Technology</h3>
+                        </div>
+                        <div class="tech-stack">
+                            <div class="tech-item">
+                                <i class="fab fa-python"></i>
+                                <span>Python</span>
+                            </div>
+                            <div class="tech-item">
+                                <i class="fab fa-js"></i>
+                                <span>JavaScript</span>
+                            </div>
+                            <div class="tech-item">
+                                <i class="fab fa-java"></i>
+                                <span>Java</span>
+                            </div>
+                            <div class="tech-item">
+                                <i class="fab fa-php"></i>
+                                <span>PHP</span>
+                            </div>
+                            <div class="tech-item">
+                                <i class="fab fa-react"></i>
+                                <span>React</span>
+                            </div>
+                            <div class="tech-item">
+                                <i class="fab fa-node-js"></i>
+                                <span>Node.js</span>
+                            </div>
+                            <div class="tech-item">
+                                <i class="fas fa-database"></i>
+                                <span>Database</span>
+                            </div>
+                            <div class="tech-item">
+                                <i class="fas fa-cloud"></i>
+                                <span>Cloud</span>
+                            </div>
+                            <div class="tech-item">
+                                <i class="fab fa-apple"></i>
+                                <span>macOS</span>
+                            </div>
+                            <div class="tech-item">
+                                <i class="fab fa-linux"></i>
+                                <span>Linux</span>
+                            </div>
+                            <div class="tech-item">
+                                <i class="fab fa-windows"></i>
+                                <span>Windows</span>
+                            </div>
+                            <div class="tech-item">
+                                <i class="fab fa-docker"></i>
+                                <span>Docker</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact" id="contact">
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h2>Get in Touch</h2>
+                    <p>Have questions or want to learn more? We'd love to hear from you.</p>
+                    <div class="contact-methods">
+                        <div class="contact-method">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <p>jbobur005@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-method">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <h4>Phone</h4>
+                                <p>+998 (93) 005-42-87</p>
+                            </div>
+                        </div>
+                        <div class="contact-method">
+                            <i class="fab fa-telegram"></i>
+                            <div>
+                                <h4>Telegram</h4>
+                                <p>Jovliyev_Bobur</p>
+                            </div>
+                        </div>
+                        <div class="contact-method">
+                            <i class="fab fa-github"></i>
+                            <div>
+                                <h4>GitHub</h4>
+                                <p>github.com/JBoburHacker005</p>
+                            </div>
+                        </div>
+                        <div class="contact-method linkedin-contact">
+                            <i class="fab fa-linkedin"></i>
+                            <div>
+                                <h4>LinkedIn</h4>
+                                <p>linkedin.com/in/Bobur005</p>
+                            </div>
+                        </div>
+                        <div class="contact-method instagram-contact">
+                            <i class="fab fa-instagram"></i>
+                            <div>
+                                <h4>Instagram</h4>
+                                <p>j.bobur005</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form class="form">
+                        <div class="form-group">
+                            <input type="text" placeholder="Your Name" class="form-input">
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Your Email" class="form-input">
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Your Message" class="form-textarea"></textarea>
+                        </div>
+                        <button type="submit" class="btn-primary form-submit">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <i class="fas fa-search"></i>
+                        <span>Qidiruv</span>
+                    </div>
+                    <p>Making search simple, fast, and intelligent.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Product</h4>
+                    <ul>
+                        <li><a href="#">Features</a></li>
+                        <li><a href="#">Pricing</a></li>
+                        <li><a href="#">API</a></li>
+                        <li><a href="#">Documentation</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Press</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Status</a></li>
+                        <li><a href="#">Community</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Qidiruv. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Cookies</a>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
