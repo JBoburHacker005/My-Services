@@ -886,17 +886,17 @@ function showSignInModal() {
                     <div class="modal-logo">
                         <div class="logo-icon">
                             <div class="logo-circle">
-                                <i class="fas fa-bolt"></i>
+                                <img src="./Airbrush-Image-Enhancer-1761540581476-Photoroom.png" alt="My Services logo">
                             </div>
                         </div>
-                        <span>JBN Services</span>
+                        <span>My Services</span>
                     </div>
                     <button class="close-modal">&times;</button>
                 </div>
                 <div class="modal-body">
                     <div class="signin-content">
                         <h3>Welcome Back!</h3>
-                        <p>Sign in to your JBN Services account</p>
+                        <p>Sign in to your My Services account</p>
                         <form class="signin-form">
                             <div class="form-group">
                                 <label for="email">Email Address</label>
@@ -990,18 +990,22 @@ function showSignInModal() {
             position: relative;
         }
         .logo-circle {
-            width: 40px;
-            height: 40px;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            border-radius: 50%;
+            width: 48px;
+            height: 48px;
+            border-radius: 14px;
             display: flex;
             align-items: center;
             justify-content: center;
-            box-shadow: 0 0 20px rgba(0, 242, 254, 0.5);
+            box-shadow: 0 0 25px rgba(0, 242, 254, 0.4);
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            padding: 0.4rem;
         }
-        .logo-circle i {
-            font-size: 1.2rem;
-            color: white;
+        .logo-circle img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+            filter: drop-shadow(0 6px 18px rgba(102, 126, 234, 0.45));
         }
         .close-modal {
             background: none;
