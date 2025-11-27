@@ -472,7 +472,7 @@ body::before {
     height: 100%;
     object-fit: contain;
     padding: 10px;
-    filter: brightness(0) invert(1);
+    filter: none;
     transition: all 0.4s ease;
     z-index: 1;
     position: relative;
@@ -514,7 +514,7 @@ body::before {
 }
 
 .card-1 .service-icon img {
-    filter: brightness(0) invert(1) drop-shadow(0 0 10px rgba(102, 126, 234, 0.8));
+    filter: drop-shadow(0 0 10px rgba(102, 126, 234, 0.8));
 }
 
 .card-2 {
@@ -530,7 +530,7 @@ body::before {
 }
 
 .card-2 .service-icon img {
-    filter: brightness(0) invert(1) drop-shadow(0 0 10px rgba(245, 87, 108, 0.8));
+    filter: drop-shadow(0 0 10px rgba(245, 87, 108, 0.8));
 }
 
 .card-3 {
@@ -546,7 +546,7 @@ body::before {
 }
 
 .card-3 .service-icon img {
-    filter: brightness(0) invert(1) drop-shadow(0 0 10px rgba(0, 242, 254, 0.8));
+    filter: drop-shadow(0 0 10px rgba(0, 242, 254, 0.8));
 }
 
 .card-4 {
@@ -562,7 +562,7 @@ body::before {
 }
 
 .card-4 .service-icon img {
-    filter: brightness(0) invert(1) drop-shadow(0 0 10px rgba(67, 233, 123, 0.8));
+    filter: drop-shadow(0 0 10px rgba(67, 233, 123, 0.8));
 }
 
 .card-5 {
@@ -579,7 +579,7 @@ body::before {
 }
 
 .card-5 .service-icon img {
-    filter: brightness(0) invert(1) drop-shadow(0 0 10px rgba(250, 112, 154, 0.8));
+    filter: drop-shadow(0 0 10px rgba(250, 112, 154, 0.8));
 }
 
 .card-6 {
@@ -595,7 +595,7 @@ body::before {
 }
 
 .card-6 .service-icon img {
-    filter: brightness(0) invert(1) drop-shadow(0 0 10px rgba(168, 237, 234, 0.8));
+    filter: drop-shadow(0 0 10px rgba(168, 237, 234, 0.8));
 }
 
 @keyframes float1 {
@@ -999,7 +999,7 @@ body::before {
     height: 100%;
     object-fit: contain;
     padding: 15px;
-    filter: brightness(0) invert(1);
+    filter: none;
     transition: all 0.4s ease;
     z-index: 1;
     position: relative;
@@ -1017,7 +1017,7 @@ body::before {
 }
 
 .video-service .service-icon img {
-    filter: brightness(0) invert(1) drop-shadow(0 0 10px rgba(102, 126, 234, 0.8));
+    filter: drop-shadow(0 0 10px rgba(102, 126, 234, 0.8));
 }
 
 /* Huquqlarim - Pink gradient */
@@ -1027,7 +1027,7 @@ body::before {
 }
 
 .news-service .service-icon img {
-    filter: brightness(0) invert(1) drop-shadow(0 0 10px rgba(245, 87, 108, 0.8));
+    filter: drop-shadow(0 0 10px rgba(245, 87, 108, 0.8));
 }
 
 /* Burchlarim - Cyan gradient */
@@ -1037,7 +1037,7 @@ body::before {
 }
 
 .mail-service .service-icon img {
-    filter: brightness(0) invert(1) drop-shadow(0 0 10px rgba(0, 242, 254, 0.8));
+    filter: drop-shadow(0 0 10px rgba(0, 242, 254, 0.8));
 }
 
 /* Ijtimoiy Himoya - Green gradient */
@@ -1047,7 +1047,7 @@ body::before {
 }
 
 .messenger-service .service-icon img {
-    filter: brightness(0) invert(1) drop-shadow(0 0 10px rgba(67, 233, 123, 0.8));
+    filter: drop-shadow(0 0 10px rgba(67, 233, 123, 0.8));
 }
 
 /* Ta'lim - Orange gradient */
@@ -1057,7 +1057,7 @@ body::before {
 }
 
 .map-service .service-icon img {
-    filter: brightness(0) invert(1) drop-shadow(0 0 10px rgba(250, 112, 154, 0.8));
+    filter: drop-shadow(0 0 10px rgba(250, 112, 154, 0.8));
 }
 
 /* Soliqlarim - Light blue gradient */
@@ -1067,7 +1067,7 @@ body::before {
 }
 
 .games-service .service-icon img {
-    filter: brightness(0) invert(1) drop-shadow(0 0 10px rgba(168, 237, 234, 0.8));
+    filter: drop-shadow(0 0 10px rgba(168, 237, 234, 0.8));
 }
 
 /* Yangiliklar - Pink gradient */
@@ -1077,7 +1077,7 @@ body::before {
 }
 
 .market-service .service-icon img {
-    filter: brightness(0) invert(1) drop-shadow(0 0 10px rgba(255, 154, 158, 0.8));
+    filter: drop-shadow(0 0 10px rgba(255, 154, 158, 0.8));
 }
 
 /* Energetika va Komunal - Peach gradient */
@@ -1087,7 +1087,7 @@ body::before {
 }
 
 .music-service .service-icon img {
-    filter: brightness(0) invert(1) drop-shadow(0 0 10px rgba(252, 182, 159, 0.8));
+    filter: drop-shadow(0 0 10px rgba(252, 182, 159, 0.8));
 }
 
 /* Ekologiya - Blue gradient */
@@ -1097,7 +1097,7 @@ body::before {
 }
 
 .edu-service .service-icon img {
-    filter: brightness(0) invert(1) drop-shadow(0 0 10px rgba(102, 126, 234, 0.8));
+    filter: drop-shadow(0 0 10px rgba(102, 126, 234, 0.8));
 }
 
 /* Ruxsatnomalar - Cyan gradient */
@@ -1107,7 +1107,7 @@ body::before {
 }
 
 .ai-service .service-icon img {
-    filter: brightness(0) invert(1) drop-shadow(0 0 10px rgba(0, 242, 254, 0.8));
+    filter: drop-shadow(0 0 10px rgba(0, 242, 254, 0.8));
 }
 
 /* Transportlar - Red gradient */
@@ -1117,7 +1117,7 @@ body::before {
 }
 
 .pay-service .service-icon img {
-    filter: brightness(0) invert(1) drop-shadow(0 0 10px rgba(255, 107, 107, 0.8));
+    filter: drop-shadow(0 0 10px rgba(255, 107, 107, 0.8));
 }
 
 /* Jarimalarim - Blue gradient */
@@ -1127,7 +1127,7 @@ body::before {
 }
 
 .int-test-service .service-icon img {
-    filter: brightness(0) invert(1) drop-shadow(0 0 10px rgba(0, 210, 255, 0.8));
+    filter: drop-shadow(0 0 10px rgba(0, 210, 255, 0.8));
 }
 
 .service-card h3 {
